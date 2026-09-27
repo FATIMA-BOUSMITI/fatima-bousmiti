@@ -1,3 +1,4 @@
+
 export type ExperienceItem = {
   period: string
   title: string
@@ -8,17 +9,19 @@ export type ExperienceItem = {
 
 export const experience: ExperienceItem[] = [
   {
-    period: '2026 – Présent',
-    title: 'OCP – Plateforme Collaborative Interne | Développeuse Full-Stack & QA',
+    period: '2026 – Present',
+    title: 'OCP – Internal Collaborative Platform | Full-Stack Developer & QA Engineer',
     summary:
-      'Développement d’une plateforme collaborative web interne pour faciliter la communication, la gestion de projets et la collaboration entre les différents départements de l’OCP. La plateforme est conçue pour être sécurisée, personnalisable, facile à utiliser et accessible sur différents appareils.',
+      'Development of an internal web-based collaborative platform designed to facilitate communication, project management, and collaboration across OCP departments. The platform is designed to be secure, customizable, user-friendly, and accessible across different devices.',
+
     responsibilities: [
-      'Développement du module Authentication & Identity Access Management (IAM) avec JWT et OTP.',
-      'Conception et exécution de cas de tests fonctionnels, API, sécurité et performance.',
-      'Documentation et validation des API REST avec Swagger/OpenAPI et Postman.',
-      'Automatisation des tests et mise en place du pipeline CI/CD.',
-      'Contribution au build, aux tests et à la validation des APIs.',
+      'Developed the Authentication & Identity Access Management (IAM) module using JWT and OTP.',
+      'Designed and executed functional, API, security, and performance test cases.',
+      'Documented and validated REST APIs using Swagger/OpenAPI and Postman.',
+      'Automated tests and implemented the CI/CD pipeline.',
+      'Contributed to API development, testing, and validation.',
     ],
+
     techStack: [
       'Java 17',
       'Spring Boot',
@@ -39,18 +42,29 @@ export const experience: ExperienceItem[] = [
       'CI/CD',
     ],
   },
+
   {
     period: '2025',
-    title: 'OCP – Safi | Stage en Développement Web & Informatique',
+    title: 'OCP – Safi | Web Development & IT Intern',
     summary:
-      'Développement d’une application web de gestion des tickets IT destinée au suivi et à la résolution des incidents informatiques. L’application a été conçue pour centraliser les demandes, améliorer la réactivité et garantir un meilleur suivi des incidents informatiques.',
+      'Developed a web-based IT ticket management application for tracking and resolving IT incidents. The application was designed to centralize requests, improve response times, and provide better monitoring of IT incidents.',
+
     responsibilities: [
-      'Conception de l’application à l’aide de UML.',
-      'Développement avec PHP, JavaScript, Bootstrap, MySQL et XAMPP.',
-      'Mise en place de tableaux de bord et d’alertes en cas de saturation du stockage.',
-      'Gestion et suivi des tickets internes.',
-      'Réalisation de tests unitaires et amélioration de la sécurité, de la fiabilité et de l’ergonomie de l’application.',
+      'Designed the application architecture using UML.',
+      'Developed the application using PHP, JavaScript, Bootstrap, MySQL, and XAMPP.',
+      'Implemented dashboards and storage capacity alerts.',
+      'Managed and tracked internal IT tickets.',
+      'Performed unit testing and improved the application’s security, reliability, and usability.',
     ],
-    techStack: ['UML', 'PHP', 'JavaScript', 'Bootstrap', 'MySQL', 'XAMPP'],
+
+    techStack: [
+      'UML',
+      'PHP',
+      'JavaScript',
+      'Bootstrap',
+      'MySQL',
+      'XAMPP',
+    ],
   },
 ]
+
