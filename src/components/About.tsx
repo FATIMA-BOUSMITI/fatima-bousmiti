@@ -10,7 +10,7 @@ export function About() {
         <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="rounded-3xl border border-slate-200 bg-white/80 p-7 shadow-[0_0_25px_rgba(15,23,42,0.04)] backdrop-blur-xl">
             <p className="text-base leading-8 text-slate-700">
-              I am a 4th-year Computer Engineering student at ENSA Safi, Morocco, with a strong interest in software testing, quality assurance, API validation, mobile development, and backend engineering.
+              I am a 5th-year Computer Engineering student at ENSA Safi, Morocco, with a strong interest in software testing, quality assurance, API validation, mobile development, and backend engineering.
             </p>
             <p className="mt-5 text-base leading-8 text-slate-700">
               My profile is increasingly oriented toward QA and testing, with a focus on functional testing, regression testing, REST API testing, and delivering reliable digital products with secure architecture.
