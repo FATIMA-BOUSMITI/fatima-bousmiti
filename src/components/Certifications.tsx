@@ -82,7 +82,7 @@ export function Certifications() {
                         : 'border-cyan-200 bg-cyan-50 text-cyan-700'
                     }`}
                   >
-                    {isInProgress ? '⏳' : '🏆'}
+                   
                   </div>
 
                   <span className="text-xs font-medium uppercase tracking-[0.2em] text-slate-500">
@@ -107,7 +107,7 @@ export function Certifications() {
                 <div className="mt-5">
                   {isInProgress ? (
                     <span className="inline-flex items-center rounded-full bg-amber-50 px-3 py-1.5 text-xs font-semibold text-amber-700">
-                      ⏳ In Progress
+                       In Progress
                     </span>
                   ) : (
                     cert.certificateUrl && (
