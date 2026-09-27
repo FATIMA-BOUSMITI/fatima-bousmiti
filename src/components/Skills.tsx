@@ -7,7 +7,7 @@ export function Skills() {
         <div className="mb-12 max-w-3xl">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.24em] text-slate-500">Skills</p>
           <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl">
-            Core skills for quality, delivery, and product reliability.
+            
           </h2>
         </div>
 

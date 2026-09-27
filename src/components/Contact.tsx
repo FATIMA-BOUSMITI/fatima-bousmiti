@@ -6,7 +6,7 @@ export function Contact() {
           <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
             <div>
               <p className="mb-3 text-sm font-semibold uppercase tracking-[0.24em] text-slate-500">Contact</p>
-              <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl">Let&apos;s build something meaningful.</h2>
+              <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl"></h2>
               <p className="mt-4 max-w-xl text-base leading-7 text-slate-700">
                 I am open to internships, PFE opportunities, junior developer roles, and QA-focused positions where I can contribute, learn, and grow with a strong development team.
               </p>

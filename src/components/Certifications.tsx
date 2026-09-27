@@ -60,8 +60,7 @@ export function Certifications() {
           </p>
 
           <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl">
-            Focused learning across quality assurance, secure development,
-            and backend systems.
+           
           </h2>
         </div>
 
