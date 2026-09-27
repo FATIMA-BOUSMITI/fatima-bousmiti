@@ -6,7 +6,7 @@ export function Experience() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12 max-w-2xl">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.24em] text-slate-500">Experience</p>
-          <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl">Exploring practical software development and quality engineering.</h2>
+          <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl"></h2>
         </div>
 
         <div className="space-y-6">

@@ -17,7 +17,7 @@ export function Education() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12 max-w-2xl">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.24em] text-slate-500">Education</p>
-          <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl">Academic foundation in engineering and software development.</h2>
+          <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl"></h2>
         </div>
 
         <div className="grid gap-6 md:grid-cols-1">
