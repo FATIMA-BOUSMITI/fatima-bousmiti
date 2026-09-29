@@ -1,3 +1,4 @@
+typescript
 export type Project = {
   name: string
   summary: string
@@ -10,35 +11,55 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: 'OCP – Plateforme Collaborative Interne',
+    name: 'OCP – Internal Collaborative Platform',
     summary:
-      'Plateforme collaborative web interne conçue pour améliorer la communication, la gestion de projets et la coordination entre départements au sein de l’OCP.',
-    techStack: ['Java 17', 'Spring Boot', 'Spring Security', 'JWT', 'OTP', 'React', 'TypeScript', 'PostgreSQL', 'Swagger/OpenAPI', 'Postman'],
-    features: [
-      'Module IAM avec authentification JWT et OTP',
-      'Gestion des accès et des rôles',
-      'Tests fonctionnels, API, sécurité et performance',
-      'Documentation des API REST avec Swagger',
-      'Validation via Postman',
-      'Pipeline CI/CD pour build et tests',
-      'Contribution à la fiabilité et à la qualité du produit',
+      'Internal web-based collaborative platform designed to improve communication, project management, and coordination across OCP departments.',
+    techStack: [
+      'Java 17',
+      'Spring Boot',
+      'Spring Security',
+      'JWT',
+      'OTP',
+      'React',
+      'TypeScript',
+      'PostgreSQL',
+      'Swagger/OpenAPI',
+      'Postman',
     ],
-    githubLink: 'https://github.com/FATIMA-BOUSMITI/Platform-collaboration-ocp-frontend',
+    features: [
+      'IAM module with JWT and OTP authentication',
+      'Access and role management',
+      'Functional, API, security, and performance testing',
+      'REST API documentation with Swagger',
+      'API validation using Postman',
+      'CI/CD pipeline for build and testing',
+      'Contribution to product reliability and quality',
+    ],
+    githubLink:
+      'https://github.com/FATIMA-BOUSMITI/Platform-collaboration-ocp-frontend',
     demoLink: 'https://example.com/ocp-collab-demo',
     accent: 'from-indigo-500/20 via-blue-500/15 to-cyan-500/20',
   },
+
   {
     name: 'eBus Smart Transport System',
     summary:
-      'A smart transportation application designed to simplify bus selection, tracking, subscriptions and secure digital payments for users.',
-    techStack: ['Flutter', 'Dart', 'Spring Boot', 'PostgreSQL', 'Stripe', 'JWT'],
+      'Smart transportation application designed to simplify bus selection, tracking, subscriptions, and secure digital payments for users.',
+    techStack: [
+      'Flutter',
+      'Dart',
+      'Spring Boot',
+      'PostgreSQL',
+      'Stripe',
+      'JWT',
+    ],
     features: [
       'Bus line selection',
-      'Transport tracking',
-      'Subscriptions',
+      'Real-time transport tracking',
+      'Transport subscriptions',
       'Stripe payment integration',
-      'User dossiers',
-      'Lost object management',
+      'User profile and document management',
+      'Lost and found item management',
       'JWT authentication',
       'REST APIs',
       'Backend deployment',
@@ -47,55 +68,83 @@ export const projects: Project[] = [
     demoLink: 'https://example.com/ebus-demo',
     accent: 'from-emerald-500/20 via-teal-500/15 to-cyan-500/20',
   },
+
   {
     name: 'AgoraCampus',
     summary:
-      'Plateforme web universitaire développée avec Vue.js et Laravel pour centraliser les cours, le calendrier, les messages, le profil utilisateur et le dashboard académique.',
-    techStack: ['Vue 3', 'Vite', 'JavaScript', 'Laravel', 'PHP', 'MySQL', 'REST API', 'Axios'],
+      'University web platform developed with Vue.js and Laravel to centralize courses, academic schedules, messages, user profiles, and academic dashboards.',
+    techStack: [
+      'Vue 3',
+      'Vite',
+      'JavaScript',
+      'Laravel',
+      'PHP',
+      'MySQL',
+      'REST API',
+      'Axios',
+    ],
     features: [
-      'Dashboard étudiant et administratif',
-      'Gestion du calendrier académique',
-      'Consultation des cours et ressources',
-      'Messages internes et communication',
-      'Profil utilisateur',
-      'Scan QR et accès rapide aux fonctionnalités',
-      'Architecture front-end/back-end découplée',
+      'Student and administrative dashboards',
+      'Academic calendar management',
+      'Course and learning resource management',
+      'Internal messaging and communication',
+      'User profile management',
+      'QR code scanning and quick access to features',
+      'Decoupled frontend/backend architecture',
     ],
     githubLink: 'https://github.com/sofiastron/AgoraCampus.git',
     demoLink: 'https://example.com/agora-campus-demo',
     accent: 'from-cyan-500/20 via-sky-500/15 to-violet-500/20',
   },
+
   {
     name: 'SauceDemo QA Automation',
     summary:
-      'Automated test project for the SauceDemo web application, created with Playwright and TypeScript to validate login flows, product interaction, and cart behavior using a maintainable Page Object Model structure.',
-    techStack: ['Playwright', 'TypeScript', 'Page Object Model', 'QA Automation', 'Functional Testing'],
+      'Automated testing project for the SauceDemo web application, developed with Playwright and TypeScript to validate login flows, product interactions, and cart behavior using a maintainable Page Object Model structure.',
+    techStack: [
+      'Playwright',
+      'TypeScript',
+      'Page Object Model',
+      'QA Automation',
+      'Functional Testing',
+    ],
     features: [
       'Login tests with valid and invalid credentials',
       'Product add/remove flow validation',
       'Cart state verification',
-      'Reusable test structure with POM',
-      'Functional UI automation for web scenarios',
+      'Reusable test structure using POM',
+      'Functional UI test automation for web scenarios',
     ],
-    githubLink: 'https://github.com/FATIMA-BOUSMITI/SauceDemo-QA-Automation',
+    githubLink:
+      'https://github.com/FATIMA-BOUSMITI/SauceDemo-QA-Automation',
     demoLink: 'https://example.com/saucedemo-demo',
     accent: 'from-amber-500/20 via-orange-500/15 to-rose-500/20',
   },
+
   {
-    name: 'Gestion Parc Informatique',
+    name: 'IT Asset Management System',
     summary:
-      'Application web de gestion du parc informatique pour le suivi des incidents, l’attribution des tickets et la supervision des interventions techniques.',
-    techStack: ['PHP', 'MySQL', 'Bootstrap', 'JavaScript', 'Tailwind CSS', 'XAMPP'],
-    features: [
-      'Connexion utilisateur et technicien',
-      'Soumission et suivi des tickets',
-      'Assignation des tickets aux techniciens',
-      'Tableau de bord technique',
-      'Clôture d’incidents avec résolution détaillée',
-      'Gestion des machines et des statuts de panne',
+      'Web-based IT asset management application designed to track incidents, assign support tickets, and monitor technical interventions.',
+    techStack: [
+      'PHP',
+      'MySQL',
+      'Bootstrap',
+      'JavaScript',
+      'Tailwind CSS',
+      'XAMPP',
     ],
-    githubLink: 'https://github.com/FATIMA-BOUSMITI/gestion-parc-info-ocp.git',
+    features: [
+      'User and technician authentication',
+      'Ticket submission and tracking',
+      'Ticket assignment to technicians',
+      'Technical dashboard',
+      'Incident closure with detailed resolution',
+      'Machine and failure status management',
+    ],
+    githubLink:
+      'https://github.com/FATIMA-BOUSMITI/gestion-parc-info-ocp.git',
     demoLink: 'https://example.com/gestion-parc-demo',
     accent: 'from-slate-500/20 via-zinc-500/15 to-cyan-500/20',
   },
 ]
+
